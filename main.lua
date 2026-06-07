@@ -240,6 +240,7 @@ function love.keypressed(key)
             game_active = true
         elseif dead_state then
             dead_state = false
+            score = 0;
             player:reset()
             FlowerManager.reset()
             game_active = true
