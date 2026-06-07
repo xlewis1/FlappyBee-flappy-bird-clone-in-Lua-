@@ -284,6 +284,6 @@ Module.expectedDataFileDownloads++;
     }
 
   }
-  loadPackage({"package_uuid":"7000502f-8e99-4500-9d9b-f856cc9226ce","remote_package_size":8248911,"files":[{"filename":"/Bumble_1.png","crunched":0,"start":0,"end":1444070,"audio":false},{"filename":"/Bumble_2.png","crunched":0,"start":1444070,"end":2850377,"audio":false},{"filename":"/Flower_2.png","crunched":0,"start":2850377,"end":4891753,"audio":false},{"filename":"/OpenSans_Condensed-SemiBoldItalic.ttf","crunched":0,"start":4891753,"end":5028545,"audio":false},{"filename":"/background.png","crunched":0,"start":5028545,"end":6182491,"audio":false},{"filename":"/flower_1.png","crunched":0,"start":6182491,"end":8240780,"audio":false},{"filename":"/main.lua","crunched":0,"start":8240780,"end":8248911,"audio":false}]});
+  loadPackage({"package_uuid":"a278d43f-958a-43e7-ad22-c5ec225499bd","remote_package_size":8248911,"files":[{"filename":"/Bumble_1.png","crunched":0,"start":0,"end":1444070,"audio":false},{"filename":"/Bumble_2.png","crunched":0,"start":1444070,"end":2850377,"audio":false},{"filename":"/Flower_2.png","crunched":0,"start":2850377,"end":4891753,"audio":false},{"filename":"/OpenSans_Condensed-SemiBoldItalic.ttf","crunched":0,"start":4891753,"end":5028545,"audio":false},{"filename":"/background.png","crunched":0,"start":5028545,"end":6182491,"audio":false},{"filename":"/flower_1.png","crunched":0,"start":6182491,"end":8240780,"audio":false},{"filename":"/main.lua","crunched":0,"start":8240780,"end":8248911,"audio":false}]});
 
 })();
