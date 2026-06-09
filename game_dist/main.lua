@@ -195,7 +195,11 @@ function FlowerManager.draw()
 end
 
 function love.load()
-    love.window.setMode(SCREEN_WIDTH, SCREEN_HEIGHT, { fullscreen = false, vsync = true })
+    love.window.setMode(SCREEN_WIDTH, SCREEN_HEIGHT, { 
+        fullscreen = false, 
+        vsync = true,
+        borderless = true
+     })
     love.window.setTitle("Flappy Bee (Lua Port)")
 
     font = love.graphics.newFont("OpenSans_Condensed-SemiBoldItalic.ttf", 28)
@@ -267,4 +271,8 @@ function love.draw()
     else 
         render_with_outline("Score: " ..tostring(score), 25, 20, font, {1, 1, 1, 1})
     end
+
+    love.graphics.setColor(1, 1, 1, 1)
+    love.graphics.setLineWidth(12)
+    love.graphics.rectangle("line", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
 end 
